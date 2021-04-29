@@ -1,0 +1,146 @@
+body{
+    padding: 0;
+    margin: 0;
+    overflow-y: hidden;
+    background-color: #FAFAFA;
+}
+#corpo{
+    height: 100vh;
+}
+
+.content{
+    /* border: 2px solid purple; */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;;
+}
+
+.content-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.blocoLogin, .blocoCadastrar{
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    margin: 12px;
+    padding: 20px;
+}
+
+.blocoLogin img{
+    padding-top: 25px;
+    width: 40%;
+    margin: auto auto;
+}
+
+.formLogin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.formLogin input{
+    width: 290px;
+    height: 30px;
+    margin: 5px;
+    border: 1px solid gainsboro;
+    color: grey;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.btnLogar{
+    width: 300px;
+    height: 30px;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #B2DFFC;
+    color: white;
+    border: none;
+}
+
+@media(max-width: 800px){
+    .content-main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* border: 1px solid gray; */
+        width: 90%;
+    }
+    
+
+    .blogoImg{
+        display: none !important
+    }
+    
+    .blocoLogin{
+        border: 1px solid gray;
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .blocoLogin img{
+        padding-top: 15px;
+        margin: auto auto;
+    }
+
+    .formLogin input, .btnLogar, .blocoLogin img{
+        max-width: 100%;
+        /* height: 30px;
+        margin: 5px;
+        border: 1px solid gainsboro;
+        color: grey;
+        border-radius: 5px;
+        padding: 5px; */
+    }
+}
+
+.loginfacebook{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #385185;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.esqueceuSenha{
+    text-decoration: none;
+    font-size: 12px;
+    color: #575a61;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.blocoCadastrar{
+    font-size: 15px;
+    color: #575a61;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.img-apps{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-apps img{
+    width: calc(70% / 2);
+    margin: 0px 10px;
+}
