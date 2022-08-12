@@ -1,20 +1,20 @@
-body{
+body {
     padding: 0;
     margin: 0;
     overflow-y: hidden;
     background-color: #FAFAFA;
 }
-#corpo{
+#corpo {
     height: 100vh;
 }
 
-.content{
+.content {
     /* border: 2px solid purple; */
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;;
+    align-items: center;
 }
 
 .content-main{
@@ -24,7 +24,8 @@ body{
     width: 50%;
 }
 
-.blocoLogin, .blocoCadastrar{
+.blocoLogin, 
+.blocoCadastrar {
     border: 1px solid rgba(var(--b6a,219,219,219),1);
     max-width: 100%;
     display: flex;
@@ -36,13 +37,13 @@ body{
     padding: 20px;
 }
 
-.blocoLogin img{
+.blocoLogin img {
     padding-top: 25px;
     width: 40%;
     margin: auto auto;
 }
 
-.formLogin{
+.formLogin {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -50,7 +51,7 @@ body{
     padding: 10px;
 }
 
-.formLogin input{
+.formLogin input {
     width: 290px;
     height: 30px;
     margin: 5px;
@@ -60,7 +61,7 @@ body{
     padding: 5px;
 }
 
-.btnLogar{
+.btnLogar {
     width: 300px;
     height: 30px;
     margin: 5px;
@@ -71,7 +72,7 @@ body{
     border: none;
 }
 
-@media(max-width: 800px){
+@media(max-width: 800px) {
     .content-main{
         display: flex;
         flex-direction: column;
@@ -94,12 +95,12 @@ body{
         flex-direction: column;
     }
 
-    .blocoLogin img{
+    .blocoLogin img {
         padding-top: 15px;
         margin: auto auto;
     }
 
-    .formLogin input, .btnLogar, .blocoLogin img{
+    .formLogin input, .btnLogar, .blocoLogin img {
         max-width: 100%;
         /* height: 30px;
         margin: 5px;
@@ -110,7 +111,7 @@ body{
     }
 }
 
-.loginfacebook{
+.loginfacebook {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -121,26 +122,26 @@ body{
     font-weight: 700;
 }
 
-.esqueceuSenha{
+.esqueceuSenha {
     text-decoration: none;
     font-size: 12px;
     color: #575a61;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.blocoCadastrar{
+.blocoCadastrar {
     font-size: 15px;
     color: #575a61;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.img-apps{
+.img-apps {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.img-apps img{
+.img-apps img {
     width: calc(70% / 2);
     margin: 0px 10px;
 }
