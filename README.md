@@ -1,2 +1,2 @@
-<h2>Clone da Tela inicial do Instragam</h2>
+<h2 text-align="center">Clone da Tela inicial do Instragam</h2>
 <p>Projeto feito para desafio do Bootcamp HTML Web Developer da DIO</p>
